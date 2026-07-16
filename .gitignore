@@ -1,0 +1,18 @@
+# Generated
+node_modules/
+_site/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+npm-debug.log*
+*.log
+
+# Env
+.env
+.env.local

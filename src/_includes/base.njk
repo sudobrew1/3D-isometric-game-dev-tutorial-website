@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }} - Sudobrew's Isometric Game Dev Tutorial</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header id="top">
+        <div class="bar">
+            <h1>3D Isometric Game Dev Tutorials</h1>
+        </div>
+    </header>
+    <div class="layout">
+        <nav class="sidebar">
+            <h2>Navigation</h2>
+              <ul>
+                {% for group in nav %}
+                <li>
+                    <details {% if group.open %}open{% endif %}>
+                        <summary>{{ group.label }}</summary>
+                        <ul>
+                            {% for item in group.items %}
+                            <li>
+                                <a href="{{ item.url }}"
+                                   {% if item.url == page.url %}aria-current="page"{% endif %}>{{ item.label }}</a>
+                                {% if item.url == page.url %}
+                                {{ content | toc | safe }}
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </details>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>{{ title }}</h2>
+                {{ content | safe }}
+            </article>
+        </main>
+    </div>
+    <footer>
+        <div class="bar">
+            <p>&copy; 2026 sudobrew</p>
+            <a href="#top" class="to-top">Back to top ↑</a>
+        </div>
+    </footer>
+    <dialog id="lightbox">
+        <img src="" alt="">
+    </dialog>
+
+    <script src="/js/lightbox.js" defer></script>
+</body>
+</body>
+</html>
