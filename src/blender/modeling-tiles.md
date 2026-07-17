@@ -13,13 +13,15 @@ Go to `File > New > General or Ctrl+N > General` or simply start Blender.
 
 It's important that the project is set up using a resolution that is 2:1 for dimetric isometric projection. Here are some common resolutions:
 
-<table>
-  <thead><tr><th>Tile Resolution</th><th>Recommended Screen Resolution</th><th>Notes</th></tr></thead>
-  <tbody><tr><td>32 × 16</td><td>640 x 480 / 800 x 600</td><td>Retro PC monitor from early to mid 90's</td></tr></tbody>
-  <tbody><tr><td>64 x 32</td><td>1280 x 720</td><td>Late 90s, early 00's monitors (720p)</td></tr></tbody>
-  <tbody><tr><td>128 x 64</td><td>1920 x 1080 - 2560 x 1440</td><td>Modern default (1080p - 2K)</td></tr></tbody>
-  <tbody><tr><td>256 x 128</td><td>3840 × 2160</td><td>Modern 4K</td></tr></tbody>
-</table>
+<div class="table-scroll">
+    <table>
+        <thead><tr><th>Tile Resolution</th><th>Recommended Screen Resolution</th><th>Notes</th></tr></thead>
+        <tbody><tr><td>32 × 16</td><td>640 x 480 / 800 x 600</td><td>Retro PC monitor from early to mid 90's</td></tr></tbody>
+        <tbody><tr><td>64 x 32</td><td>1280 x 720</td><td>Late 90s, early 00's monitors (720p)</td></tr></tbody>
+        <tbody><tr><td>128 x 64</td><td>1920 x 1080 - 2560 x 1440</td><td>Modern default (1080p - 2K)</td></tr></tbody>
+        <tbody><tr><td>256 x 128</td><td>3840 × 2160</td><td>Modern 4K</td></tr></tbody>
+    </table>
+</div>
 
 Select the default cube and delete it. Select `Output > Format` in the Properties panel and change the X resolution to 256px and the Y resolution to 128px.
 
