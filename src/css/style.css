@@ -57,7 +57,6 @@ header .bar{
     padding-block: 5px;
 }
 
-
 .bar, .layout {
     max-width: 100rem;
     margin-inline: auto;
@@ -73,12 +72,18 @@ h1, h2, h3{
     color: azure;
 }
 
+h1 a:link, h1 a:visited{
+    color: azure;
+    text-decoration: none;
+
+}
+
 li {
     color: azure;
     font-weight: bold;
 }
 
-a:link, a:visited {
+nav a:link, nav a:visited {
     color: antiquewhite;
     text-decoration: none;
     font-weight: normal;

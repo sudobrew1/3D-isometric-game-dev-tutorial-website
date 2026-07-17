@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: "Part 1 - Installing Blender"
+hideBackToTop: true
 ---
 
 Installation guide for <a href="https://www.blender.org/download" target="_blank" rel="noopener noreferrer"><strong>Blender version 5.2 LTS</strong></a> On Windows 11, MacOS and Linux.
