@@ -11,7 +11,7 @@ Out there on the internet, there are so many how-to's on isometric games with pi
 ### 3D Modeling to Render Sprites
 
 <figure>
-    <a href="/images/960px-Logo_Blender.svg.webp">
+    <a href="https://blender.org" target="_blank" rel="noopener noreferrer">
         <img src="/images/960px-Logo_Blender.svg.webp" alt="Blender"
             width="452" height="555" loading="lazy">
     </a>
@@ -19,14 +19,14 @@ Out there on the internet, there are so many how-to's on isometric games with pi
 ### Game Engines
 </figure>
 <figure>
-    <a href="/images/godot-logo.png">
+    <a href="https://godotengine.org" target="_blank" rel="noopener noreferrer">
         <img src="/images/godot-logo.png" alt="Godot game engine"
             width="452" height="555" loading="lazy">
     </a>
 </figure>
 
 <figure>
-    <a href="/images/unity-logo-2026.png">
+    <a href="https://unity.com" target="_blank" rel="noopener noreferrer">
         <img src="/images/unity-logo-2026.png" alt="Unity game engine"
             width="452" height="555" loading="lazy">
     </a>

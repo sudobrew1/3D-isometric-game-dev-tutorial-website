@@ -26,7 +26,7 @@ It's important that the project is set up using a resolution that is 2:1 for dim
 Select the default cube and delete it. Select `Output > Format` in the Properties panel and change the X resolution to 256px and the Y resolution to 128px.
 
 <figure>
-    <a href="/images/scene-resolution-panel.png">
+    <a href="/images/scene-resolution-panel.png" class="lightbox">
         <img src="/images/scene-resolution-panel.png" alt="Scene panel in Blender"
             width="452" height="555" loading="lazy">
     </a>
@@ -38,7 +38,7 @@ Select the default cube and delete it. Select `Output > Format` in the Propertie
 Next, click on the Render tab in the Properties panel, go to the Film section and set the Filter Size to 0px and click the Transparent checkbox. This will ensure that you have a transparent background when rendering the image of the tile.
 
 <figure>
-    <a href="/images/render-panel.png">
+    <a href="/images/render-panel.png" class="lightbox">
         <img src="/images/render-panel.png" alt="Render panel in Blender"
             width="452" height="555" loading="lazy">
         </a>
@@ -49,7 +49,7 @@ Next, click on the Render tab in the Properties panel, go to the Film section an
 Underneath the main toolbar, go to `Add > Mesh > Plane` or press `Shift + A > Mesh > Plane`. Set it to 1x1 meter. Press `Tab` to go into Edit Mode, right-click and select `Subdivide`. Next, add a camera (Shift + A > Camera) and reset its rotation by pressing `alt+R`. Set the X rotation axis to 60 degrees, and the Z rotation axis to 45 degrees. Drag the camera way from the plane mesh for now.
 
 <figure>
-    <a href="/images/camera-rotation.png">
+    <a href="/images/camera-rotation.png" class="lightbox">
         <img src="/images/camera-rotation.png" alt="Camera rotation settings"
             width="882" height="582" loading="lazy">
         </a>
@@ -60,7 +60,7 @@ Underneath the main toolbar, go to `Add > Mesh > Plane` or press `Shift + A > Me
 Select the camera, then click on the Data tab in the properties panel. Go to Lens and change the type from perspective to orthographic.
 
 <figure>
-    <a href="/images/camera-orthographic-view.png">
+    <a href="/images/camera-orthographic-view.png" class="lightbox">
         <img src="/images/camera-orthographic-view.png" alt="Camera lens set to orthographic"
             width="457" height="794" loading="lazy">
         </a>
@@ -92,7 +92,7 @@ Next we need to move the camera precisely over the tile. Enable snapping and sel
 Select the camera, press `G` then `Shift+Z` to exclude moving on the Z axis. Click the center of your tile mesh. Press `0` on the numpad to view through the camera. The view should look like this:
 
 <figure>
-    <a href="/images/camera-placement.png">
+    <a href="/images/camera-placement.png" class="lightbox">
         <img src="/images/camera-placement.png" alt="Camera placed correctly over tile"
             width="955" height="467" loading="lazy">
     </a>
@@ -107,7 +107,7 @@ Now that we have our basic tile set up, the most we can do is give it a texture 
 Go to `Output > Format` and swap the X and Y resolution values so that the lens becomes vertical. Then go to `Data > Lens`, throw in `2*(1/cos(radians(45)))` into the Orthographic Scale field and hit Enter. The value should be `2.828`. It should be wide enough now to see the entire tile now with space at the bottom.
 
 <figure>
-    <a href="/images/building-height-1.png">
+    <a href="/images/building-height-1.png" class="lightbox">
         <img src="/images/building-height-1.png" alt="Camera is taller"
             width="955" height="462" loading="lazy">
     </a>
@@ -116,7 +116,7 @@ Go to `Output > Format` and swap the X and Y resolution values so that the lens 
 Next, we want to shift Y upwards. While in `Data > Lens`, Click on the arrows on the Y axis to move the camera upwards until the tile's bottom corner touches the edge of the lens. The result should look like this:
 
 <figure>
-    <a href="/images/building-height-2.png">
+    <a href="/images/building-height-2.png" class="lightbox">
         <img src="/images/building-height-2.png" alt="Tile is set to the bottom"
             width="955" height="462" loading="lazy">
     </a>
@@ -125,7 +125,7 @@ Next, we want to shift Y upwards. While in `Data > Lens`, Click on the arrows on
 Now you can render buildings, walls, props and more!
 
 <figure>
-    <a href="/images/wall-with-palm-and-rubble.png">
+    <a href="/images/wall-with-palm-and-rubble.png" class="lightbox">
         <img src="/images/wall-with-palm-and-rubble.png" alt="Basic wall with a palm tree and rubble"
             width="256" height="298" loading="lazy">
     </a>
@@ -148,7 +148,7 @@ The extruded part at the bottom is getting cut off by the camera lens at the cur
 The final result should look something like this:
 
 <figure>
-    <a href="/images/tile-thickness-result.png">
+    <a href="/images/tile-thickness-result.png" class="lightbox">
         <img src="/images/tile-thickness-result.png" alt="Tile thickness achieved"
             width="955" height="462" loading="lazy">
     </a>
