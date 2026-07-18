@@ -28,14 +28,14 @@ To install the editor, click Install Editor in the upper right-hand corner and g
 
 Download the .deb file from the website navigate to your `~/Downloads` folder and run:
 ```bash
-sudo apt install ./UnityHub.deb
+sudo apt install ./UnityHubSetup.deb
 ```
 
 <h3>Fedora</h3>
 
 Download the .rpm file from the website navigate to your `~/Downloads` folder and run:
 ```bash
-sudo dnf install ./UnityHub.rpm
+sudo dnf install ./UnityHubSetup.rpm
 ```
 
 <h3>Arch Linux</h3>
