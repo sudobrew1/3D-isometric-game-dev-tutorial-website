@@ -4,11 +4,11 @@ title: Welcome!
 hideBackToTop: true
 ---
 
-This is a tutorial to model and texture tile sets and import them into Unity or Godot. Use the navigation on the left to get started.
+Out there on the internet, there are so many how-to's on isometric games with pixel art, but what if you wanted to make a game with graphics that remind you of Age of Empires I & II, the orginal Starcraft or the very first Fallout game? This site will teach you how to model and texture your own 3D assets, then import the rendered images or "sprites" into your 2D Godot or Unity game. Use the navigation on the left panel to get started.
 
 ## Applications Used in this Tutorial
 
-### 3D Modeling
+### 3D Modeling to Render Sprites
 
 <figure>
     <a href="/images/960px-Logo_Blender.svg.webp">
