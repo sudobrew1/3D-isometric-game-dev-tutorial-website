@@ -13,7 +13,8 @@ module.exports = [
     label: "Godot",
     open: true,
     items: [
-      { label: "Installing", url: "/godot/installing/" }
+      { label: "Installing", url: "/godot/installing/" },
+      { label: "Project Setup", url: "/godot/project-setup/" }
     ],
   },
     {
