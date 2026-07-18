@@ -63,6 +63,10 @@ header .bar{
     padding-inline: 1.5rem;
 }
 
+.bar a:link, .bar a:visited {
+    color: azure;
+}
+
 .layout {
     display: flex;
     gap: 2rem;
@@ -72,7 +76,7 @@ h1, h2, h3{
     color: azure;
 }
 
-h1 a:link, h1 a:visited{
+h1 a:link, h1 a:visited, a:link, p :visited {
     color: azure;
     text-decoration: none;
 
