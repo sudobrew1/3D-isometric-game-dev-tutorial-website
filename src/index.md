@@ -8,13 +8,16 @@ This is a tutorial to model and texture tile sets and import them into Unity or 
 
 ## Applications Used in this Tutorial
 
+### 3D Modeling
+
 <figure>
     <a href="/images/960px-Logo_Blender.svg.webp">
         <img src="/images/960px-Logo_Blender.svg.webp" alt="Blender"
             width="452" height="555" loading="lazy">
     </a>
-</figure>
 
+### Game Engines
+</figure>
 <figure>
     <a href="/images/godot-logo.png">
         <img src="/images/godot-logo.png" alt="Godot game engine"
