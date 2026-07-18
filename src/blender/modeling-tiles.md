@@ -129,7 +129,6 @@ Now you can render buildings, walls, props and more!
         <img src="/images/wall-with-palm-and-rubble.png" alt="Basic wall with a palm tree and rubble"
             width="256" height="298" loading="lazy">
     </a>
-    <figcaption class="img-caption">Important note: This image was cropped from the very top to remove the render's extra transparent pixels so that the image fits naturally in a 256x298 box for this tutorial guide. Engines like Godot will trim sprites for you. Leave the resolution at a 2:1 ratio when importing tilesets.</figcaption>
 </figure>
 
 
