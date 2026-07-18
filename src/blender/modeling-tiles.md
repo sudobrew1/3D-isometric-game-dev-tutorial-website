@@ -11,7 +11,7 @@ Go to `File > New > General or Ctrl+N > General` or simply start Blender.
 
 ### 2. Adjust scene to 2:1 ratio
 
-It's important that the project is set up using a resolution that is 2:1 for dimetric isometric projection. Here are some common resolutions:
+It's important that the project is set up using a resolution that is 2:1 for dimetric isometric projection. Here are some common resolutions from past to present:
 
 <div class="table-scroll">
     <table>
