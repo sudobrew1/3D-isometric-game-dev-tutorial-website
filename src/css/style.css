@@ -108,10 +108,12 @@ p {
 .sidebar a[aria-current="page"] {
     background-color: #352091;
     border-left: 3px solid orange;
+    border-radius: 3px;
 }
 
 .sidebar a:hover {
     background-color: #352091;
+    border-radius: 3px;
 }
 
 .sidebar a:visited {
