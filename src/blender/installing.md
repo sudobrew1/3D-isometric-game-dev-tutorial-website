@@ -6,11 +6,11 @@ hideBackToTop: true
 
 Installation guide for <a href="https://www.blender.org/download" target="_blank" rel="noopener noreferrer"><strong>Blender version 5.2 LTS</strong></a> On Windows 11, MacOS and Linux.
 
-<h2>Windows & MacOS</h2>
+## Windows & MacOS
 
 Select the appropriate installer for x86, ARM or Apple Silicon depending on your CPU architecture. Click Download Blender. Once downloading is finished on Windows, click on the .msi file and follow the installation prompts. On MacOS, click on the .dmg file, drag the Blender.app icon to the Applications folder.
 
-<h2>Linux</h2>
+## Linux
 
 For manual setup, select Linux on the dropdown and download the .tar.xz file. Extract the file to your desired location:
 ```bash
