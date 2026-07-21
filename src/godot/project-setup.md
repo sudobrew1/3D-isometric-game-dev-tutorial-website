@@ -26,3 +26,28 @@ For our game, we need to it to be 2D instead of 3D. In the upper-right hand corn
             width="3822" height="2023" loading="lazy">
     </a>
 </figure>
+
+### 3. Godot User Interface Overview
+
+<figure>
+    <a href="/images/godot-node2d-scene-annotated.png" class="lightbox">
+        <img src="/images/godot-node2d-scene-annotated.png" alt="Annotated image of Godot Node2D project"
+            width="3822" height="2023" loading="lazy">
+    </a>
+</figure>
+
+#### 1. Scene & Import Panel
+Where the scene heirarchy lives. Everything stems from Node2D.
+
+#### 2. FileSystem & History Panel
+Where assets live. Place tileset, player and prop art here.
+
+#### 3. 2D Viewport
+
+#### 4. Inspector & Signal Panel
+
+#### 5. Workspace Buttons
+
+#### 6. Menu
+
+#### 7. Play Scene buttons
