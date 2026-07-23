@@ -5,7 +5,7 @@ module.exports = [
     items: [
       { label: "Installing", url: "/blender/installing/" },
       { label: "Modeling Tiles", url: "/blender/modeling-tiles/" },
-      { label: "UV Mapping Textures", url: "/blender/uv-mapping/" },
+      { label: "UV Mapping Tile Textures", url: "/blender/uv-mapping-tiles/" },
       { label: "Blender Templates", url: "/blender/blender-templates/" },
     ],
   },
