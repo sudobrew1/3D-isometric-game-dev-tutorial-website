@@ -1,0 +1,65 @@
+---
+layout: base.njk
+title: "UV Mapping Tile Textures"
+---
+
+UV mapping is the process of "unwrapping" a 3D object's surface and laying it flat. Think about it like cutting apart a cardboard box and flattening it out. This creates a canvas that is used as a guide to wrap 2D textures, images and colors onto the 3D model.
+
+### 1. Open The Tile .blend Project
+After completing the <strong><a href="/blender/modeling-tiles/">Modeling Tiles</a></strong> tutorial, open up the `.blend` file containing your newly made tile. Click on the UV Editing Tab.
+
+<figure>
+    <a href="/images/uv_editing_tab.png" class="lightbox">
+        <img src="/images/uv_editing_tab.png" alt="UV Editing Screen in Blender"
+            width="3820" height="1982" loading="lazy">
+    </a>
+</figure>
+
+### 2. Find and Import a Texture
+
+There are many sites to find textures online, but the most realiable site I've found is <strong><a href="https://www.ambientcg.com" target="_blank" rel="noopener noreferrer">ambientcg.com</a></strong>. It contains thousands of high-quality and seemless textures for your 3D models for free. In this tutorial, I will be using Grass004 from this website. Feel free to download any texture at any resolution as you wish.
+
+Next, unzip the folder containing your chosen texture and open in your file manager.
+
+<figure>
+    <a href="/images/texture_folder.png" class="lightbox">
+        <img src="/images/texture_folder.png" alt="Folder containing downloaded texture"
+            width="1613" height="1120" loading="lazy">
+    </a>
+</figure>
+
+As you can see, there's not just the image for the texture itself (aka color map), but other texture maps. These affect the geometry like normal and displacement maps, giving your texture depth as well as reflectance and occlusion to give it roughness or metallic look and soft shadows that show up where surfaces get close together. For now, we are only going to use the color map. For this example, I will use `Grass004_1K-JPG_Color.jpg`.
+
+In Blender, click on the "Plane" object in the Scene collection, press `Tab` to make sure you're in `Object Mode` and in the Properties panel underneath, select the Material Properties <img src="/images/material_properties_icon.png" alt="Material Properties Icon" class="ui-icon"> tab.
+
+Click the "New +" button and a new material will be added to your Plane object.
+
+<figure>
+    <a href="/images/material_properties_panel.png" class="lightbox">
+        <img src="/images/material_properties_panel.png" alt="Material Properties panel in Blender"
+            width="334" height="785" loading="lazy">
+    </a>
+</figure>
+
+In the "Surface" section, click on the yellow dot left to "Base Color" and select "Image Texture," underneath the "Texture" section. Options appear underneath "Base Color" to create a new or add an existing texture from your filesystem. Click on the "Open" button and select the color map image. Again, in this example it's `Grass004_1K-JPG_Color.jpg`.
+
+If you are not already on "Material Preview" in your Viewport Shading settings, go ahead and click on it in the upper right-hand corner of your viewport so you can actually see the texture being applied to the Plane.
+
+<figure>
+    <a href="/images/material_preview_example.png" class="lightbox">
+        <img src="/images/material_preview_example.png" alt="Material Properties panel in Blender"
+            width="1652" height="1942" loading="lazy">
+    </a>
+</figure>
+
+### 3. UV Unwrapping the Plane
+
+Now that we have our grass texture added as a material to our object, let's preview the material on the UV Editing viewport. Along the top, click on "Browse Image to be linked" and select your texture to view in the background. Press `tab > A` to go into Edit Mode to see the Plane object's mesh and all of its faces selected. Since this is a flat plane, there are no extra steps to unwrap.
+
+From here, you can scale, rotate or move the UV mesh around the texture. If you feel the texture is too granular and would like to see more detail, scale the mesh smaller to get more details on the blades of grass, rotate it for the grass blades to go in a different direction or move to get certain details if you have something in it you'd like to include, like flowers or specific cracks in dirt.
+
+### 4. Rendering and Saving
+
+Once you are content with how the texture looks, press `F12` to render the object and a new "Blender Render" window will appear. Optionally, use the scroll wheel or click and drag on the zoom in/zoom out button on the right to view the render up close or far away. Click on `Image > Save As` and name your new 256x256 tile sprite something appropriate (like grass-01.png) and save it.
+
+Congratulations! You just made your first asset to import into Godot or Unity to use in your game.
