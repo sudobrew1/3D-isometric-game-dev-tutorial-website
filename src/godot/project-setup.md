@@ -7,7 +7,7 @@ Let's get started with creating a new project for our pre-rendered isometric gam
 
 ### 1. Getting Started
 
-After Opening Godot, the Project Manager will appear. Click the Create button in the upper left hand corner to create a new Godot project. Name your project and select a project path for your game to live in. Choose `Forward+`. Mobile and Compatibility are not going to be covered in this tutorial. If you would like to include a Version Control system, select `Git` from the dropdown menu. Keep the `Edit Now` box checked and click Create.
+After opening Godot, the Project Manager will appear. Click the Create button in the upper left hand corner to create a new Godot project. Name your project and select a project path for your game to live in. Choose `Forward+`. Mobile and Compatibility are not going to be covered in this tutorial. If you would like to include a Version Control system, select `Git` from the dropdown menu. Keep the `Edit Now` box checked and click Create.
 
 <figure>
     <a href="/images/godot-project-setup-screen.png" class="lightbox">
